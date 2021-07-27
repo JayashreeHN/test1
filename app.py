@@ -163,7 +163,7 @@ def predict():
 
         return render_template("main.html", data=new_recommendations, songs=song_grouped['song'].head(15))
     else:
-        return render_template("main.html")
+        return render_template("main.html")#main html
 
 
 
